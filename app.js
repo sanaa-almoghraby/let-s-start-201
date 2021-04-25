@@ -1,8 +1,14 @@
 let visiTor= prompt('Hello, is this your first visit?');
+console.log( 'first visit?' + visiTor);
 let userNam= prompt('Please enter your name...');
-let eGe= prompt('Please enter your age...');
+console.log('name' + userNam);
+let aGe= prompt('Please enter your age...');
+console.log('your age ' + aGe );
 let commEnt= prompt('I hope I do well. Please enter your comment..');
-alert ('Hi ' + userNam +  eGe + 'old' + ' you are welcome ' + ' thanks for your comment ' + commEnt );
+
+console.log('comment ' + commEnt);
+
+alert ('Hi ' + userNam  +  aGe  + 'your age' + ' you are welcome ' + ' thanks for your comment ' + commEnt );
 console.log('Hi ' + userNam + ' you are welcome ' + ' thanks for your comment ' + commEnt);
 //document.write( '<p>' + 'Hello, is this your first visit?' +visiTor + '</p>');
 //document.write( '<p>' + 'Please enter your name...' + userNam + '</p>');
